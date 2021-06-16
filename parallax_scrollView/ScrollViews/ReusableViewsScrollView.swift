@@ -43,11 +43,9 @@ class ReusableViewsScrollView<T: UIView>: UIScrollView where T: Instantiatable {
         
         reuseOrInsertViews(first: firstIndex, last: lastIndex)
     }
-}
-
-// MARK: - Public API
-
-extension ReusableViewsScrollView {
+    
+    // MARK: - Public API
+    
     func reloadData(numberOfItems: Int, itemAtIndex: @escaping ItemAtIndexCreation) {
         self.numberOfItems = numberOfItems
         self.itemAtIndex = itemAtIndex

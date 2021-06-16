@@ -14,6 +14,7 @@
 		C3E1C894267A067700F61098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E1C893267A067700F61098 /* Assets.xcassets */; };
 		C3E1C897267A067700F61098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E1C895267A067700F61098 /* LaunchScreen.storyboard */; };
 		C3E1C8AC267A07AC00F61098 /* ReusableViewsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E1C8AB267A07AC00F61098 /* ReusableViewsScrollView.swift */; };
+		C3E1C8B0267A0BC000F61098 /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E1C8AF267A0BC000F61098 /* InfiniteScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C3E1C896267A067700F61098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E1C898267A067700F61098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E1C8AB267A07AC00F61098 /* ReusableViewsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewsScrollView.swift; sourceTree = "<group>"; };
+		C3E1C8AF267A0BC000F61098 /* InfiniteScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C3E1C8AB267A07AC00F61098 /* ReusableViewsScrollView.swift */,
+				C3E1C8AF267A0BC000F61098 /* InfiniteScrollView.swift */,
 			);
 			path = ScrollViews;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				C3E1C88F267A067600F61098 /* ViewController.swift in Sources */,
 				C3E1C88B267A067600F61098 /* AppDelegate.swift in Sources */,
+				C3E1C8B0267A0BC000F61098 /* InfiniteScrollView.swift in Sources */,
 				C3E1C8AC267A07AC00F61098 /* ReusableViewsScrollView.swift in Sources */,
 				C3E1C88D267A067600F61098 /* SceneDelegate.swift in Sources */,
 			);
